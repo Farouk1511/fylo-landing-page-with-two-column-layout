@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1440px) {
+    
+  }
+  /*Big Tablets to 1200px (widths smaller than 1140 row)*/
+  @media only screen and (max-width: 1200px) {
+    .security img,
+    .illustation{
+        width: 500px;
+    }
+  }
+  
+  /*Small tablet to big tablet: 768px - 1023px*/
+  @media only screen and (max-width: 1023px) {
+    section{
+        flex-direction: column-reverse;
+        padding: 40px;
+        margin: 0;
+    }
+    .main-text{
+        width: 100%;
+        text-align: center;
+    }
+    .main-text h1 {
+        font-size: 200%;
+      }
+      .main-text p {
+        font-size: 130%;
+      }
+    .get-started{
+        flex-direction:column;
+    }
+    .quotes{
+        margin: 10px auto;
+    }
+    .quotes p{
+        font-size: 90%;
+    }
+    .get-started p{
+        margin: 10px auto;
+        
+    }
+    .sign-up{
+        margin: 0;
+    }
+    .get-started input,
+    .get-started button{
+        margin: 10px auto;
+        width:120%;
+    }
+  }
+  
+  /*Small phones to small tablet: 481px - 767px*/
+  @media only screen and (max-width: 767px) {
+    .security img,
+    .illustation{
+        width: 400px;
+    }
+    .quotes{
+        width: 90%;
+        padding: 15px;
+    }
+  }
+  
+  /*Small phones from 0-480px*/
+  @media only screen and (max-width: 480px) {
+    .security img,
+    .illustation{
+        width: 350px;
+    }
+    header{
+        padding: 20px;
+    }
+    header img{
+        width: 100px;
+        height: 40px;
+    }
+    header nav ul li{
+        margin-right: 10px;
+    }
+    .quotes{
+        width: 90%;
+        padding: 10px;
+    }
+    .quotes p{
+        font-size: 80%;
+        text-align: center;
+    }
+    .email input,
+    .email button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .get-started .main-text h1{
+        font-size: 150%;
+    }
+    .get-started .main-text p{
+        font-size: 100%;
+    }
+    .sign-up{
+        width: 100%;
+        padding: 10px;
+    }
+    .sign-up input,
+    .sign-up button{
+        width: 100%;
+    }
+    .info-container{
+        flex-direction: column;
+    }
+  }
+  
